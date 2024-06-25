@@ -7,11 +7,10 @@ import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
-    <div className="App ">
-      
+    <div className="App">
       <TopBar/>
       <MyFooter className=""/>
-  
+      
     </div>
   );
 }
