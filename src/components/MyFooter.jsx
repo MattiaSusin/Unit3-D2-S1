@@ -2,7 +2,7 @@ import { Nav } from "react-bootstrap";
 
 const MyFooter = (props) => (
   <>
-    <Nav className=" justify-content-center bg-secondary" activeKey="/home">
+    <Nav className="FooterPage justify-content-center bg-secondary" activeKey="/home">
     <Nav.Item>
         <Nav.Link eventKey="link-1" className="text-light">Horror</Nav.Link>
       </Nav.Item>

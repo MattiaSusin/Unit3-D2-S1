@@ -15,18 +15,18 @@ function App() {
       <TopBar/>
       <MyAlert/>
       <Container>
-        <Row xs={4}>
+        <Row>
           {fantasy.map((fantasy)=>{
             return(
-              <Col>
+              <Col className="CardBook" lg={3}>
                                 <Card className="bg-body-tertiary border-0">
-                                    <CardImg src={fantasy.img}></CardImg>
-                                    <CardBody>
-                                        <CardTitle>{fantasy.title}</CardTitle>
+                                    <CardImg className="ImgCard" src={fantasy.img}></CardImg>
+                                    <CardBody className=" CardBodySiz">
+                                        <CardTitle className="Titlecard">{fantasy.title}</CardTitle>
                                         <CardText>{fantasy.category}</CardText>
-                                        <CardText className="col-3 d-flex justify-content-start border border-black bg-dark text-light rounded-pill ps-1 " >{fantasy.price}€</CardText>
                                         <CardText></CardText>
                                     </CardBody>
+                                        <CardText className="CardPrice col-3 d-flex justify-content-start border border-black bg-dark text-light rounded-pill ps-1 " >{fantasy.price}€</CardText>
                                 </Card>
               </Col>
             )

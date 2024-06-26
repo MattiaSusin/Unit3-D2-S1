@@ -38,9 +38,30 @@
 }
 
 body{
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-.footer{
+.FooterPage{
   height: 50px;
+}
+
+.CardBook{
+  height: 624px;
+  margin-bottom: 15px;
+}
+
+.Titlecard{
+  font-size: 18px;
+}
+
+.ImgCard{
+  height: 450px;
+}
+.CardBodySiz{
+  height: 106px;
+}
+
+.CardPrice{
+  height: 26px;
+  width: 62px;
 }
